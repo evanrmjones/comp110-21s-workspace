@@ -1,5 +1,5 @@
 """
-first assignment
+first assignment!
 """
 
 print 'Hello world!'
