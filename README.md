@@ -14,7 +14,7 @@ Your work in the course will be completed in this workspace. Instructions for th
 4. In the Message box, give a brief description of what you've changed and are backing up. This will help you find a specific backup (called a "commit") if needed.
 5. Open the _View_ menu and select _Command Palette_, the shortcut for this menu is:
    - Windows: `Control+Shift+P`
-   - Mac: `Command+Shift+P`
+   - Mac: `Cogitmmand+Shift+P`
 6. Begin typing in: `Git: Push to...` and press `Enter` once it is the first option.
 7. Select the `backup` remote that is your personal workspace on GitHub. If you do not see `backup` listed, see the instructions below on _Setup Backup Course Material Repository_.
    - You may see a spinning "refresh" icon in your status bar at the bottom of VSCode. Unless an error backing up occurs, you will not see any confirmation.
