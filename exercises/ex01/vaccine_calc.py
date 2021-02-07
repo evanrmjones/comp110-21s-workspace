@@ -24,9 +24,10 @@ population: int = int(input("Population: "))
 doses_admin: int = int(input("Doses administered: "))
 doses_day: int = int(input("Doses per day: "))
 target_vacc: int = int(input("Target percent vaccinated: "))
-num_vaxs: int = round(population * (target_vacc / 100))
-num_days: int = round(num_vaxs / doses_admin)
+num_vaxs: int = round(population * (target_vacc/100))
+num_days: int = round(num_vaxs / doses_day)
 today : datetime = datetime.today()
 vax_days: timedelta = timedelta(num_days)
 vax_date: datetime = today + vax_days 
 print("We will reach " + str(target_vacc) + "% vaccination in " + str(vax_days.days) + " days, which falls on " + vax_date.strftime("%B %d, %Y"))
+
