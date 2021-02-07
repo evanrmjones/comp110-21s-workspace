@@ -20,12 +20,12 @@ from datetime import timedelta
 
 # Begin your solution here...
 
-population: int = int (input("Population: "))
-doses_admin: int = int (input("Doses administered: "))
-doses_day: int = int (input("Doses per day: "))
-target_vacc: int = int (input("Target percent vaccinated: "))
-num_vaxs: int = round (population * (doses_admin / 100))
-num_days: int = round (num_vaxs / doses_day)
+population: int = int(input("Population: "))
+doses_admin: int = int(input("Doses administered: "))
+doses_day: int = int(input("Doses per day: "))
+target_vacc: int = int(input("Target percent vaccinated: "))
+num_vaxs: int = round(population * (doses_admin / 100))
+num_days: int = round(num_vaxs / doses_day)
 today : datetime = datetime.today()
 vax_days: timedelta = timedelta(num_days)
 vax_date: datetime = today + vax_days 
