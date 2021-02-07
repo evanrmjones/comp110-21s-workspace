@@ -1,6 +1,6 @@
 """Program that outputs one of at least four random, good fortunes."""
 
-__author__ = 730389248
+__author__ = "730389248"
 
 # The randint function is imported from the random library so that
 # you are able to generate integers at random.
@@ -13,13 +13,6 @@ from random import randint
 
 
 # Begin your solution here...
-
-"""
-cookie_bank: list = ["A beautiful, smart, and loving person will be coming into your life." , "Your life will be happy and peaceful." , "Soon life will become more interesting.", "Success lies in the hands of those who wants it.]
-print("Your fortune cookie says...")
-print(cookie_bank[randint(0,3)])
-print("Now, go spread positive vibes!")
-"""
 
 print("Your fortune cookie says...")
 rand_num: int = randint(0,3)
