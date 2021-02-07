@@ -29,4 +29,4 @@ num_days: int = round(num_vaxs / doses_day)
 today : datetime = datetime.today()
 vax_days: timedelta = timedelta(num_days)
 vax_date: datetime = today + vax_days 
-#print("We will reach " + str(target_vacc) + "% vaccination in " + str(vax_days) + ", which falls on " + vax_date.strftime("%B %d, %Y"))
+print("We will reach " + str(target_vacc) + "% vaccination in " + str(vax_days.days) + " days, which falls on " + vax_date.strftime("%B %d, %Y"))

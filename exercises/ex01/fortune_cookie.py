@@ -15,7 +15,7 @@ from random import randint
 # Begin your solution here...
 
 print("Your fortune cookie says...")
-rand_num: int = randint(0,3)
+rand_num: int = randint(0, 3)
 if rand_num == 0:
     print("A beautiful, smart, and loving person will be coming into your life.")
 elif rand_num == 1:
