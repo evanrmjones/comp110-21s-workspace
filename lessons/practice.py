@@ -21,3 +21,7 @@ print("We will reach " + str(target_vacc) + "% vaccination in " + str(vax_days.d
     #num_days: int = round(((num_vaxs) * (population)) / (doses_day))
 #else:
     #num_days: int = round(((num_vaxs) * (population)) / (doses_day) * ((doses_admin) / (doses_day))
+
+    #vax = vax.strftime("%B %d, %Y") 
+
+#vax: datetime = vax.strftime("%B %d, %Y") 
