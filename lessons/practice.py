@@ -27,3 +27,5 @@ print("We will reach " + str(target_vacc) + "% vaccination in " + str(vax_days.d
 #vax: datetime = vax.strftime("%B %d, %Y") 
 
 #print("We will reach " + str(targ_vax) + "% vaccination in "+str(vax_day.days) + " days, which falls on " + vax.strftime("%B %d, %Y")) 
+
+days, which falls on
