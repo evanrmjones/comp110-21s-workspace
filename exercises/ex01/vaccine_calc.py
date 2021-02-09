@@ -30,4 +30,5 @@ real_vax_percent: int = round(((two_vax) * (num_vaxs) - (doses_admin)) / (doses_
 today: datetime = datetime.today()
 vax_day: timedelta = timedelta(real_vax_percent)
 vax: datetime = today + vax_day
-print("We will reach "+str(targ_vax)+"% vaccination in "+str(vax_day.days)+" days, which falls on "+vax.strftime("%B %d, %Y")) 
+output: str = "We will reach " + str(targ_vax) + "% vaccination in "+str(vax_day.days) + " days, which falls on " + vax.strftime("%B %d, %Y")
+print(output)
