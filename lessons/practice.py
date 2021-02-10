@@ -29,3 +29,11 @@ print("We will reach " + str(target_vacc) + "% vaccination in " + str(vax_days.d
 #print("We will reach " + str(targ_vax) + "% vaccination in "+str(vax_day.days) + " days, which falls on " + vax.strftime("%B %d, %Y")) 
 
 days, which falls on
+
+ # TODO 2: Print the result of calling your fortune_cookie function.
+
+ # TODO 1: Define your fortune_cookie function here.
+
+ # TODO 1: Define the tar_heels function, and its logic, here.
+
+ # TODO 2: Print the response of calling the tar_heels function here.
