@@ -1,3 +1,5 @@
-(a and b or c) and (not c and (a or b))
+a: bool = True 
+b: bool = True
 
-a > 9 and a < c or c < 12 and not b
+print(not (a and b))
+print(not a or not b)

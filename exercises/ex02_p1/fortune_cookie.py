@@ -1,6 +1,8 @@
 """Fortune cookie exercise redux as a structured program."""
 
+
 from random import randint
+
 
 __author__ = "730389248"
 
@@ -10,6 +12,7 @@ def main() -> None:
     print("Your fortune cookie says...")
     print(fortune_cookie())
     print("Now, go spread positive vibes!")
+    return None
 
 
 def fortune_cookie() -> str:
@@ -24,5 +27,7 @@ def fortune_cookie() -> str:
         return "Success lies in the hands of those who wants it." 
 # Python Idiom for "starting" the program when run as a module.
 # The special dunder variable __name__ will be "__main__" when run as module. 
+
+
 if __name__ == "__main__":
     main()

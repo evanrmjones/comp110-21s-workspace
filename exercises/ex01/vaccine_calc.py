@@ -27,6 +27,7 @@ targ_vax: int = int(input("Target percent vaccinated: "))
 num_vaxs: float = targ_vax / 100 
 two_vax: int = (population) * 2 
 real_vax_percent: int = round(((two_vax) * (num_vaxs) - (doses_admin)) / (doses_day))
+print(real_vax_percent)
 today: datetime = datetime.today()
 vax_day: timedelta = timedelta(real_vax_percent)
 vax: datetime = today + vax_day
