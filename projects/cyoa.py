@@ -17,7 +17,7 @@ def main() -> None:
     game_over = False
     points = 0 
     greet()
-    while game_over == False : 
+    while game_over != True: 
         action: str = input("what would you like to do ")
         if action == "guess": 
             guess: str = input("guess ")
@@ -38,7 +38,7 @@ def greet() -> None:
 
 
 def rand_flip(list: list) -> str: 
-    index_list: int = random.randint(0,1)
+    index_list: int = random.randint(0, 1)
     return list[index_list]
 
 
@@ -46,11 +46,10 @@ def rand_guess(guess: str) -> str:
     global flip_list
     global points
     if guess == rand_flip(flip_list):
-        points+= POINTS_CONSTANT 
+        points += POINTS_CONSTANT 
         return "correct" 
     else: 
         return "wrong"
-
 
 
 if __name__ == "__main__":
