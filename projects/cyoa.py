@@ -32,7 +32,7 @@ def main() -> None:
 
 def greet() -> None: 
     global player
-    player = input("What is your name?")
+    player = input("What is your name? ")
     print(f"Welcome {player} to a game where you have to guess a coin flips result. For every one you get right, you get one point. Use the display command to see how many points you have. When you are done playing the game, use the quit command to conclude the game. ")
     return None 
 
@@ -42,7 +42,7 @@ def rand_flip(list: list) -> str:
     return list[index_list]
 
 
-def rand_guess(guess: str) -> str: 
+def rand_guess(guess: str) -> list: 
     global flip_list
     global points
     if guess == rand_flip(flip_list):
