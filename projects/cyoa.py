@@ -39,7 +39,7 @@ def greet() -> None:
     return None 
 
 
-def rand_flip(list: list) -> list: 
+def rand_flip(list: list[str]) -> list: 
     """Flips coin randomly."""
     index_list: int = random.randint(0, 1)
     return list[index_list]
