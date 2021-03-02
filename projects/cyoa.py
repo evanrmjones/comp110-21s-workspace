@@ -18,19 +18,17 @@ def main() -> None:
     game_over = False
     points = 0 
     greet()
-    if game_over!= True: 
-        while game_over == False:
-    #while game_over != True: 
-            action: str = input("what would you like to do ")
-            if action == "guess": 
-                guess: str = input("heads or tails? ")
-                print(rand_guess(guess))
-            elif action == "quit":
-                print(f"you finished with {points} points")
-                game_over = True 
-            elif action == "display":
-                print(f"you currently have {points} points")
-        return None
+    while game_over != True: 
+        action: str = input("what would you like to do ")
+        if action == "guess": 
+            guess: str = input("heads or tails? ")
+            print(rand_guess(guess))
+        elif action == "quit":
+            print(f"you finished with {points} points")
+            game_over = True 
+        elif action == "display":
+            print(f"you currently have {points} points")
+    return None
 
 
 def greet() -> None: 
