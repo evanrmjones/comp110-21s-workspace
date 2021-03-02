@@ -53,7 +53,7 @@ def rand_guess(guess: str) -> str:
         points += POINTS_CONSTANT 
         return f"Good job! you guessed correctly! \U0001F973" 
     else: 
-        points: int = 0 
+        points = 0  
         return f"Sorry {player}, you guessed incorrectly, try again. \U0001F614"
 
 
