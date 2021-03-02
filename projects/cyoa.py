@@ -39,15 +39,12 @@ def greet() -> None:
     return None 
 
 
-
 def rand_flip(list: list) -> list: 
-    """randomly flips a coin"""
     index_list: int = random.randint(0, 1)
     return list[index_list]
 
 
 def rand_guess(guess: str) -> str: 
-    """determines if guess is correct"""
     global flip_list
     global points
     if guess == rand_flip(flip_list):
