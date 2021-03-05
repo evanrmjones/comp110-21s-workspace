@@ -7,6 +7,7 @@ __author__: str = "730389248"
 e_list: list[str] = ["e", "E"]
 #empty: list[str] = []
 
+
 def main() -> None:
     """Entrypoint of the program."""
     # Put print statements here to test your function
