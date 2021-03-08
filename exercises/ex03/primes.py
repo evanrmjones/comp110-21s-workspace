@@ -1,7 +1,7 @@
 """EX03 - prime functions."""
 
 
-__author__: str = "YOUR PID HERE"
+__author__: str = "730389248"
 
 
 def main() -> None:
