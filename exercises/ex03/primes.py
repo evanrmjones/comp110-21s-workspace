@@ -8,8 +8,14 @@ def main() -> None:
     """Entrypoint of the program."""
     # Put print statements here to test your function
     # ex. print(is_prime(5)), print(list_primes(10, 20))
+    print(is_prime(3))
+    print(is_prime(6))
+    print(is_prime(31))
+    print(is_prime(110))
     print(list_primes(3, 7))   
-
+    print(list_primes(10, 20))
+    print(list_primes(25, 28))
+    print(list_primes(-1, 5))
 
 def is_prime(num: int) -> bool: 
     """Determines if a number is prime."""
